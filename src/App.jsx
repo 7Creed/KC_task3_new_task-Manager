@@ -79,7 +79,7 @@ export default function App() {
                         <p className="">Due Date: {date}</p>
                       </div>
                       <div className="">
-                        <div className="w-full overflow-scroll">
+                        <div className="w-full">
                           <div className="w-full flex justify-between items-center">
                             <h2 className="font-bold text-3xl my-3">{title}</h2>
                             {completed && (
